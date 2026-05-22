@@ -25,7 +25,7 @@ st.write('The name on your Smoothie will be:', name_on_order)
 # )
 # st.write('You selected:', option)
 
-session = get_active_session()
+
 my_dataframe = session.table("smoothies.public.fruit_options").select("FRUIT_NAME")
 #st.dataframe(data=my_dataframe, use_container_width=True)
 
