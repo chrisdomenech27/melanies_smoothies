@@ -1,12 +1,10 @@
 # requirements.txt
 snowflake-snowpark-python
 streamlit
-
+import requests  
 
 if ingredients_list:
-  ingredients_string = ''
-
-import requests  
+  ingredients_string = '' 
 
   for fruit_chosen in ingredients_list:
     ingredients_string += fruit_chosen + ' '
